@@ -1,0 +1,22 @@
+GET https://openlibrary.org/search.json?title=Turing
+200
+91 ms
+Network
+
+Request Headers
+User-Agent: PostmanRuntime/7.51.1       -- software making the request
+Accept: */*     -- tell server all media types are acceptable
+Postman-Token: 5b80bf68-8728-4f76-9dcd-05f28ba2a8de     -- unique ID
+Host: openlibrary.org       -- server the request is sent to
+Accept-Encoding: gzip, deflate, br      -- compression formats client can use
+Connection: keep-alive      -- keep TCP connection open
+
+Response Headers
+Server: nginx/1.28.1        -- server handling the request
+Date: Mon, 02 Feb 2026 01:02:13 GMT         -- time request was made
+Content-Type: application/json      -- media type used in Response
+Transfer-Encoding: chunked      -- states response was sent in chunks
+Connection: keep-alive      -- keep TCP connection open
+x-served-by: FastAPI        -- request served by FastAPI
+Referrer-Policy: no-referrer-when-downgrade     -- how much referrer to use in next requests
+Content-Encoding: gzip      -- compression form used was gzip
